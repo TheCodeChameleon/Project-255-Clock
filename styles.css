@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(184, 50, 27);
+    max-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FALTA RESPONSIVIDADE*/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.displayer {
+    margin-top: 20px;
+}
+
+#photo {
+    max-width: 70px;
+    margin-right: 20px;
+}
+
+.btns {
+    display: flex;
+    margin-top: 15px;
+}
+
+#btns .btnsOnce {
+    background-color: #ffcc00;
+    font-size: 20px;
+    border: none;
+}
+
+.btnpads {
+    border-radius: 5px;
+    width: 50px;
+    height: 45px;
+    border: none;
+    background-color: #ffcc00;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    background-color: #ffcc00;
+    padding: 100px 0px;
+    border-radius: 10px;
+    height: 400px;
+    width: 700px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.dual-container {
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    margin: auto;
+}
+
+.time-sets {
+    display: grid;
+    grid-template-columns: 50px 100px 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer {
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #000;
+    font-size: 25px;
+    color: #ffcc00;
+}
